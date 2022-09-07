@@ -1,4 +1,4 @@
-# Phonopy-easy-get-phonon-scattering-script
+# Vasp Phonopy easy get phonon scattering script
 very easy to get phonon scattering
 ######简介######
 
