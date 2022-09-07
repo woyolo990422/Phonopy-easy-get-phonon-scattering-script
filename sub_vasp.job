@@ -1,0 +1,7 @@
+#BSUB -q e52692v2ib!
+#BSUB -n 12
+#BSUB -J scf
+
+module load ips/2018u4
+export I_MPI_ADJUST_REDUCE=3
+mpirun -np 12 vasp_gam612 > log

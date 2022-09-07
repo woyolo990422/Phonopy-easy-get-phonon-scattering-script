@@ -1,0 +1,16 @@
+ISTART =  0        
+LREAL  = Auto    
+ENCUT  =  750     
+PREC   =  Accurate     
+LWAVE  = .FALSE.  
+LCHARG = .FALSE.    
+ADDGRID= .TRUE. 
+ISMEAR =0          
+SIGMA  =  0.06   
+NELM   =  150         
+EDIFF  =  1E-07
+ALGO=Fast
+NPAR=1
+SYMPREC=1E-12
+
+
