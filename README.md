@@ -10,7 +10,7 @@ very easy to get phonon scattering
 
 首先获得高精度优化后的POSCAR
 
-扩胞： phonopy -d --dim="x x x" -c POSCAR --tolearance=(0.001~1) (tolearance代表了空间群的判断容忍误差，对于敏感的结构取不同值有较大的区别，-c 为选取扩胞文件， --dim为扩胞的周期)
+扩胞： phonopy -d --dim="x x x" -c POSCAR --tolerance=(0.001~1) (tolearance代表了空间群的判断容忍误差，对于敏感的结构取不同值有较大的区别，-c 为选取扩胞文件， --dim为扩胞的周期)
 
 计算：sh loop-in.sh
 
